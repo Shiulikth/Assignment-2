@@ -1,0 +1,46 @@
+.third-section{
+    margin-top: 30px;
+}
+
+.heading{
+    margin:0 250px;
+    font-weight: bold;
+    padding-left: 300px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 15px;
+    margin-top: 0;
+    justify-items: center;
+}
+
+.first-product, .second-product,.third-product,.forth-product,.fifth-product,.sixth-product,.seventh-product,.eighth-product,.ninth-product{
+    width: 200px;
+    height:400px;
+    background-color:rgba(250, 244, 244, 0.993);
+    
+    
+}
+.photo img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fa-star{
+    color: orange;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.see{
+    color: rgb(204, 15, 46);
+    display: flex;
+    justify-content: end;
+    margin-right: 110px;
+}

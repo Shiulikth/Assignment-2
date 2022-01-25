@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.forth-section{
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.featured-details{
+    display: flex;
+    justify-content: left;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.photo2{
+    height: 270px;
+width: 404px;
+
+
+}
+.photo2 img{
+    width: 100%;
+}
+
+.setup-details{
+    width: 610px;
+    height: 270px;
+    margin-left: 96px;
+}
+
